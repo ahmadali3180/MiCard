@@ -8,19 +8,22 @@ struct ContentView: View {
             Color(red: 0.44, green: 0.44, blue: 0.83)
                 .ignoresSafeArea( )
             VStack {
-                Text("Muhammad Ahmad Ali")
+                
+                ProfilePictureView()
+                
+                Text("Your Name Here")
                     .font(Font.custom("Pacifico-Regular", size: 44))
                     .foregroundColor(.init(UIColor(red: 0.97, green: 0.95, blue: 0.89, alpha: 1.00)))
                     .bold()
-                Text("Native iOS Developer")
+                Text("Your Job Title")
                     .font(.system(size: 24))
                     .foregroundColor(.init(UIColor(red: 0.97, green: 0.95, blue: 0.89, alpha: 1.00)))
                     .bold()
                 Divider()
                 
-                InfoView(text: "03181817231", imageName: "phone.fill", frameWidth: 340, frameHeight: 50 , cornerRadius: 25, colorName: .green)
+                InfoView(text: "+92 333 3333 333", imageName: "phone.fill", frameWidth: 340, frameHeight: 50 , cornerRadius: 25, colorName: .green)
                 
-                InfoView(text: "mahmadali3180@gmail.com", imageName: "envelope.fill", frameWidth: 340, frameHeight: 50, cornerRadius: 25, colorName: .primary)
+                InfoView(text: "email@example.com", imageName: "envelope.fill", frameWidth: 340, frameHeight: 50, cornerRadius: 25, colorName: .black)
                     
             }
             .padding(.all)

@@ -13,6 +13,7 @@
 		E083C84A295C7C210077BE57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E083C849295C7C210077BE57 /* Preview Assets.xcassets */; };
 		E083C852295C811F0077BE57 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E083C851295C811F0077BE57 /* Pacifico-Regular.ttf */; };
 		E083C855295C99FC0077BE57 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E083C854295C99FC0077BE57 /* InfoView.swift */; };
+		E0910AD5295E224400E93312 /* ProfilePictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0910AD4295E224400E93312 /* ProfilePictureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E083C851295C811F0077BE57 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		E083C853295C81670077BE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E083C854295C99FC0077BE57 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		E0910AD4295E224400E93312 /* ProfilePictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePictureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +58,14 @@
 		E083C841295C7C1F0077BE57 /* MiCard */ = {
 			isa = PBXGroup;
 			children = (
-				E083C853295C81670077BE57 /* Info.plist */,
 				E083C842295C7C1F0077BE57 /* MiCardApp.swift */,
 				E083C844295C7C1F0077BE57 /* ContentView.swift */,
-				E083C851295C811F0077BE57 /* Pacifico-Regular.ttf */,
-				E083C846295C7C210077BE57 /* Assets.xcassets */,
-				E083C848295C7C210077BE57 /* Preview Content */,
 				E083C854295C99FC0077BE57 /* InfoView.swift */,
+				E0910AD4295E224400E93312 /* ProfilePictureView.swift */,
+				E083C846295C7C210077BE57 /* Assets.xcassets */,
+				E083C851295C811F0077BE57 /* Pacifico-Regular.ttf */,
+				E083C853295C81670077BE57 /* Info.plist */,
+				E083C848295C7C210077BE57 /* Preview Content */,
 			);
 			path = MiCard;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				E083C845295C7C1F0077BE57 /* ContentView.swift in Sources */,
 				E083C855295C99FC0077BE57 /* InfoView.swift in Sources */,
 				E083C843295C7C1F0077BE57 /* MiCardApp.swift in Sources */,
+				E0910AD5295E224400E93312 /* ProfilePictureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
