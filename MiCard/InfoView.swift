@@ -20,7 +20,7 @@ struct InfoView: View {
                         .font(.system(size: 22))
                     Text(text)
                         .foregroundColor(.black)
-                        .opacity(0.667)
+                        .opacity(0.75)
                         .font(Font.custom("Pacifico-Regular", size: 24))
                         .bold()
                         .padding(EdgeInsets(top: 0, leading: 0, bottom: 5, trailing: 0))
